@@ -8,7 +8,7 @@
 
 <body>
 	<h1>Signup Form Car</h1>
-	<form method="post">
+	<form method="post" id="form1">
 		<label for="name"></label>
 		<input type="text" name="name" id="name" placeholder="Name" required>
 		<label for="email"></label>
@@ -35,9 +35,9 @@
 		<input type ="password" name="Password" id="password" required>
 		<label for ="tos">i agreee to the TOS</label>
 		<input type="checkbox" name="i agree to the TOS" id="tos" required>
-		<input type="submit">
+		
 	</form>
-	
+	<button type="submit" form="form1" value="submit">submit</button>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
